@@ -151,6 +151,20 @@
       },
       "welcome": {
         "current_msg": "현재 메시지:\n```\n{message}\n```\n\n아래의 것들을 같이 쓸 수도 있어.\n**사용가능한 표현**:\n`{mention}`\n`{name}`\n`{guild}`\n`{count}`",
+        "embed": {
+          "channel": "채널",
+          "color_title": "색상",
+          "color_value": "```\n형태:  {type}\n값: {value}\n```",
+          "current_settings": "현재의 환영 메시지는 이거야. `{prefix}welcome [세부 명령어]`를 사용하면 바꿀 수 있어.",
+          "image_title": "이미지",
+          "image_value": "```\n배경: {background}\n아이콘:       {icon}\n```",
+          "message_title": "메시지",
+          "message_value": "```\n{message}\n```",
+          "no_channel": "`설정된 아이콘 없음`",
+          "preview": "미리보기",
+          "subcommands_title": "세부 명령어",
+          "subcommands_value": "```\n배경    set <background>\n        reset\n채널    set <#channel>\n        reset\n색상    set <hex:rrggbb|rgb:r,g,b>\n        reset\n아이콘  set <icon>\n        reset\n메시지  set <message>\n        reset```"
+        },
         "few_args": "무언가 적게 받았어!\n`{prefix}welcome` 을 사용하면 사용 가능한 모든 세부 명령어들을 확인할 수 있어!",
         "invalid_args": "유효하지 않은 값이야!\nRun `{prefix}welcome` 을 사용하면 가능한 모든 세부 명령어들을 확인할 수 있어!",
         "invalid_bg": "유효하지 않은 배경이야. `{background}`\n[위키]({wiki:bg}) 에 가능한 배경들이 소개되어 있어.",
