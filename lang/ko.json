@@ -17,6 +17,7 @@
       "그런 부끄러운 것들은 연령 제한 채널에서만 볼 수 있어, {user}.",
       "모든 것은 속한 자리가 있지. 그리고 그 명령어의 자리는 연령 제한 채널이야, {user}."
     ],
+    "title": "Error",
     "unknown": "미.. 미안! 무언가 잘못된 모양이야.. {VANILLABLUSH}\n디스코드 혹은 깃허브에 문의해줘!"
   },
   "misc": {
@@ -133,10 +134,12 @@
         "invalid_args": "유효하지 않은 값이야!\n사용법: `{prefix}language <set <언어>|reset>`",
         "invalid_lang": "그 언어는 아직 모르는 언어야!\n`{prefix}language` 를 사용하면 내가 아는 언어들을 알려줄게!",
         "embed": {
-          "description": "`{prefix}language set <언어>` 를 이용하면 아래에 있는 언어들 중 원하는 언어로 바꿀 수 있어!",
+          "available_lang_title": "사용가능한 언어들",
           "curr_lang_title": "현재 사용중인 언어",
           "curr_lang_value": "한국어 (ko)",
-          "available_lang_title": "사용가능한 언어들"
+          "description": "`{prefix}language set <언어>` 를 이용하면 아래에 있는 언어들 중 원하는 언어로 바꿀 수 있어!",
+          "translators_title": "Translators",
+          "translators_value": "Thanks go to all people that translated the bot!\nYou may find a full list of all current translators and their translations [here]({link})."
         },
         "language_reset": "언어 초기화 성공!",
         "language_set": "언어가 `한국어 (ko)`로 변경되었어!",
@@ -187,20 +190,22 @@
           "id": "ID",
           "image": "이미지",
           "link": "[`링크`]({link})",
-          "message": "메시지"
+          "message": "메시지",
+          "name": "Name"
         },
         "no_args": "최소한 `:이모티콘:`이나 `--search`를 명령어 뒤에 붙여줘.",
         "not_found": "최근 100개의 메시지 중에서 이모티콘이 있는 메시지를 찾을 수 없어.",
         "unknown_guild": "알 수 없는 서버"
       },
       "guild": {
-        "embeds": {
+        "embed": {
           "boost_multiple": "{boost} 명이 부스트 중",
-          "boost_single": "{boost} 명이 부스트 중",
-          "boost_tier": "부스트 레밸: {BOOST_LEVEL_{level}} (Level {level})",
+          "boost_single": "1 명이 부스트 중",
+          "boost_tier": "부스트 레밸: {BOOST_TIER} (Level {level})",
           "created": "생성 일자",
           "level": "보안 수준",
           "levels": {
+            "unknown": "Unknown level",
             "none": "없음",
             "low": "낮음",
             "medium": "중간",
@@ -252,11 +257,15 @@
         }
       },
       "invite": {
-        "about_title": "각각 링크에 대한 설명",
-        "about_value": "각각의 링크는 다른 방식으로 나를 초대해.\n`권장 초대`는 내가 필요로 하는 모든 권한들을 갖고 들어올거야. 내가 가장 자유롭게 움직일 수 있어.\n`Basic Invite`는 필수적인 권한들만 갖고 들어와.\n`봇 지원 서버`는 너를 내 지원 서버로 초대하는 링크야.",
-        "info_title": "초대하는 방법",
-        "info_value": "오 예! 날 네 서버에 초대하려 하다니 너무 기뻐. ^ㅡ^\n아래에 있는 링크들 중에서 하나를 고르면 내가 따라가서 따분함을 풀고 고양이 소녀들을 데려와 줄게!",
-        "links": "[`권장 초대`]({invite_full})\n[`기본 초대`]({invite_basic})\n[`봇 지원 서버`]({support})"
+        "dm_failure": "Please allow me to send you a DM {user}!",
+        "dm_success": "Send you a message in DM {user}!",
+        "embed": {
+          "about_title": "각각 링크에 대한 설명",
+          "about_value": "각각의 링크는 다른 방식으로 나를 초대해.\n`권장 초대`는 내가 필요로 하는 모든 권한들을 갖고 들어올거야. 내가 가장 자유롭게 움직일 수 있어.\n`Basic Invite`는 필수적인 권한들만 갖고 들어와.\n`봇 지원 서버`는 너를 내 지원 서버로 초대하는 링크야.",
+          "info_title": "초대하는 방법",
+          "info_value": "오 예! 날 네 서버에 초대하려 하다니 너무 기뻐. ^ㅡ^\n아래에 있는 링크들 중에서 하나를 고르면 내가 따라가서 따분함을 풀고 고양이 소녀들을 데려와 줄게!",
+          "links": "[`권장 초대`]({invite_full})\n[`기본 초대`]({invite_basic})\n[`봇 지원 서버`]({support})"
+        }
       },
       "level": {
         "bot": "봇은 래벨이 없어 xP",
@@ -285,7 +294,7 @@
         },
         "few_args": "무언가 적게 받았어!\n사용법: `{prefix}quote <메시지 ID> [#채널핑]`",
         "invalid_id": "유효하지 않은 ID야. 개발자 모드를 킨 상태에서 **메시지**를 우클릭하고 \"ID복사하기\"를 제대로 눌렀는 지 확인해봐.",
-        "not_msg": "{channel}에서 그 메시지를 찾을 수 없어!\n그 메시지가 그 채널에 제대로 있는지 확인해봐.",
+        "no_msg": "{channel}에서 그 메시지를 찾을 수 없어!\n그 메시지가 그 채널에 제대로 있는지 확인해봐.",
         "no_value": "그 메시지는 텍스트도, 이미지도 없는 빈 메시지야.",
         "nsfw_channel": "{channel}는 연령 제한 채널이지만 여기는 아니야!\n안전을 위해서 연령 제한 채널의 메시지는 여기로 불러올 수 없어."
       },
