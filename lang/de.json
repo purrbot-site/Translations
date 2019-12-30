@@ -133,10 +133,12 @@
         "invalid_args": "Ungültige Argumente!\nVewendung: `{prefix}language <set <Sprache>|reset>`",
         "invalid_lang": "Die angegebene Sprache ist ungültig!\nVewende `{prefix}language` um alle verfügbaren Sprachen zu sehen.",
         "embed": {
-          "description": "Du kannst die Sprache zu einer der unten stehenden ändern indem du `{prefix}language set <Sprache>` verwendest.",
+          "available_lang_title": "Verfügbare Sprachen",
           "curr_lang_title": "Momentan gesetzte Sprache",
           "curr_lang_value": "Deutsch (de)",
-          "available_lang_title": "Verfügbare Sprachen"
+          "description": "Du kannst die Sprache zu einer der unten stehenden ändern indem du `{prefix}language set <Sprache>` verwendest.",
+          "translators_title": "Übersetzer",
+          "translators_value": "Dank geht an alle Personen, welche den Bot übersetzt haben!\nDu kannst eine vollständige Liste aller Übersetzer und deren übersetzungen [hier]({link}) finden."
         },
         "language_reset": "Sprache resettet!",
         "language_set": "Sprache geändert zu `Deutsch (de)`!",
@@ -252,11 +254,15 @@
         }
       },
       "invite": {
-        "about_title": "Über die Links",
-        "about_value": "Jeder Link hat eine andere Verwendung.\n`Empfohlene Einladung` enthält alle Berechtigungen die ich benötige und ein paar andere, um deine Erfahrungen mit mir angenehmer zu machen.\n`Standard Einladung` hat nur die benötigten Berechtigungen.\n`Discord` ist die Einladung zu meinem Support Discord.",
-        "info_title": "Lade mich ein",
-        "info_value": "Heyo! Nett von dir, mich auf deinen Discord einzuladen. :3\nVerwende einfach einen der Links unten um mich auf deinen Discord zu kriegen, so dass ich nekos und Spass zu dir bringen kann.",
-        "links": "[`Empfohlene Einladung`]({invite_full})\n[`Standard Einladung`]({invite_basic})\n[`Discord`]({support})"
+        "dm_failure": "Bitter erlaub mir, dier eine PM zu senden {user}!",
+        "dm_success": "Hab dir eine Nachricht gesendet {user}!",
+        "embed": {
+          "about_title": "Über die Links",
+          "about_value": "Jeder der Links hat eine andere Bedeutung.\n`Empfohlene Einladung` enthält alle Rechte die ich brauche und einige mehr, um deine Erfahrungen angenehmer zu machen.\n`Standart Einladung` hat alle benötigten Rechte.\n`Discord` ist die Einladung zu meinem Support Discord.",
+          "info_title": "Lade mich ein",
+          "info_value": "Heyo! Nett von dir, mich auf deinen Discord einzuladen. :3\nWähle einfach einen der unteren Links, so dass ich dir Spass und Nekos bringen kann.",
+          "links": "[`Empfohlene Einladung`]({invite_full})\n[`Standart Einladung`]({invite_basic})\n[`Discord`]({support})"
+        }
       },
       "level": {
         "bot": "Bots können nicht aufleveln. xP",
@@ -285,7 +291,7 @@
         },
         "few_args": "Zu wenige Argumente!\nVerwendung: `{prefix}quote <messageID> [#channel]`",
         "invalid_id": "Die angegebene ID war ungültig!\nStell sicher, dass du den Entwickler-Modus aktiviert, auf die **Nachricht** rechts-klick gemacht hast und \"ID kopieren\" ausgewählt hast.",
-        "not_msg": "Konnte Nachricht in {channel} nicht finden!\nStelle sicher, dass die ID korrekt ist und dass die Nachricht im richtigen Kanal ist.",
+        "no_msg": "Konnte Nachricht in {channel} nicht finden!\nStelle sicher, dass die ID korrekt ist und dass die Nachricht im richtigen Kanal ist.",
         "no_value": "Die Nachricht hat keine Bilder oder Text zum zitieren.",
         "nsfw_channel": "Der Kanal den du erwähnt hast ({channel}) ist als NSFW markiert, während dieser hier es nicht ist!\nAus sicherheit zitiere ich keine Nachrichten von NSFW-Kanälen in Nicht NSFW-Kanälen."
       },
