@@ -6,6 +6,8 @@ The language used can be set through the `.language` command (Default is english
 You may add your own translation for \*Purr* to be added.  
 In order to do this, copy the content of the [en.json](/lang/en.json), create a new file named after the language code of your language, add the content of the en.json to it and start translating!
 
+As a thank you for translating the bot will you be mentioned in this readme and become a part of the translator-team of this organisation.
+
 Please follow those guidelines listed below:
 - Do NOT
   - Alter, add or remove placeholders. A placeholder starts with a `{` and ends with a `}` (`{example}`).  
