@@ -17,6 +17,7 @@
       "Du kannst diese schmutzigen dinge nur in NSFW-Kanälen sehen {user}.",
       "Alles hat seinen Platz. Und dieser Befehl gehört in einen NSFW-Kanal {user}."
     ],
+    "title": "Fehler",
     "unknown": "D-das ist jetzt etwas peinlich, aber ich hatte einen Fehler beim ausführen einer Aktion. {VANILLABLUSH}\nBitte melde dies im Discord, oder auf GitHub!"
   },
   "misc": {
@@ -140,7 +141,6 @@
           "translators_title": "Übersetzer",
           "translators_value": "Dank geht an alle Personen, welche den Bot übersetzt haben!\nDu kannst eine vollständige Liste aller Übersetzer und deren übersetzungen [hier]({link}) finden."
         },
-        "language_reset": "Sprache resettet!",
         "language_set": "Sprache geändert zu `Deutsch (de)`!",
         "no_language": "Bitte gib eine Sprache an, welche du verwenden willst!"
       },
@@ -189,21 +189,23 @@
           "id": "ID",
           "image": "Bild",
           "link": "[`Link`]({link})",
-          "message": "Nachricht"
+          "message": "Nachricht",
+          "name": "Name"
         },
         "no_args": "Bitte gib entweder `:emote:` oder `--search` nach dem Befehl an.",
         "not_found": "Konnte kein Emote in den letzten 100 Nachrichten finden.",
         "unknown_guild": "Unbekannte Guilde"
       },
       "guild": {
-        "embeds": {
+        "embed": {
           "boost_multiple": "{boost} boosts",
-          "boost_single": "{boost} boost",
-          "boost_tier": "Boost Stufe: {BOOST_LEVEL_{level}} (Level {level})",
+          "boost_single": "1 boost",
+          "boost_tier": "Boost Stufe: {BOOST_TIER} (Level {level})",
           "created": "Erstellt",
           "level": "Level",
           "levels": {
-            "none": "Kein level",
+            "unknown": "Unbekanntes Level",
+            "none": "Kein Level",
             "low": "Niedrig",
             "medium": "Mittel",
             "high": "(╯°□°）╯︵ ┻━┻",
