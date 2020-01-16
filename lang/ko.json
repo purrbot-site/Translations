@@ -22,7 +22,7 @@
   },
   "misc": {
     "and": "그리고",
-    "info": "Hey there {user}!\nMy prefix on this Discord is `{prefix}`\nRun `{prefix}help` for a list of commands."
+    "info": "Hey there {user}!\nMy prefix on this Discord is `{prefix}`\nRun `{prefix}help` for a list of commands.",
     "unknown_user": "(알 수 없음)",
     "welcome_member": "넌 {count}번 째로 들어온 사람이야!"
   },
@@ -335,7 +335,7 @@
           "role_total": "그 외 역할",
           "xp": "경험치"
         },
-        "more_roles": "__**{remaining} more**__",
+        "more_roles": "__**+{remaining} more**__",
         "no_member": "그 사람은 이 서버에 없어.",
         "no_roles": "`가진 역할 없음`",
         "no_roles_others": "`그 외 가진 역할 없음`",
