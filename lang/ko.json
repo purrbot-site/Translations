@@ -5,9 +5,9 @@
   "errors": {
     "api_error": "API 요청에 실패했어! 나중에 다시 시도해줘.",
     "missing_perms": {
-      "self": "{permission} 권한이 나에게 없어!",
-      "self_channel": "{channel} 채널에 {permission} 권한이 나에게 없어!",
-      "other": "이 명령어를 사용하려면 너에게 {permission} 권한이 있어야 해."
+      "self": "`{permission}` 권한이 나에게 없어!",
+      "self_channel": "{channel} 채널에 `{permission}` 권한이 나에게 없어!",
+      "other": "이 명령어를 사용하려면 너에게 `{permission}` 권한이 있어야 해."
     },
     "nsfw_random": [
       "이 채널은 연령 제한 채널이 아닌 것 같은데.. 그렇지, {user}?",
@@ -22,6 +22,7 @@
   },
   "misc": {
     "and": "그리고",
+    "info": "Hey there {user}!\nMy prefix on this Discord is `{prefix}`\nRun `{prefix}help` for a list of commands."
     "unknown_user": "(알 수 없음)",
     "welcome_member": "넌 {count}번 째로 들어온 사람이야!"
   },
@@ -326,12 +327,15 @@
           "created": "계정생성:",
           "dates": "날짜",
           "game": "상태: {status}",
+          "id": "ID: {id}",
           "joined": "서버입장:",
           "level": "레벨",
+          "nickname": "Nick: {nickname}",
           "role_highest": "최고 역할",
           "role_total": "그 외 역할",
           "xp": "경험치"
         },
+        "more_roles": "__**{remaining} more**__",
         "no_member": "그 사람은 이 서버에 없어.",
         "no_roles": "`가진 역할 없음`",
         "no_roles_others": "`그 외 가진 역할 없음`",
@@ -370,7 +374,7 @@
           "denied": "{target} 는 {user} 랑 야한 걸 하고 싶지 않나봐. >.<",
           "message": "{target}!\n{user} 가 너랑 뜨거운 밤을 보내고 싶대. 너도 하고싶어?\n수락하려면 \u2705 를 눌러. \u274C 를 누르면 거절할 수 있어.\n\n> **1분이 지나면 자동으로 거절이야!**",
           "open": "발정나지 말라고, {user}! 이미 네가 부탁한 사람이 있잖아.",
-          "timed_out": "아마 {target} 는 {user} 랑 야한 걸 하고 싶지 않나봐. .\\_."
+          "timed_out": "아마 {target} 는 {user} 랑 야한 걸 하고 싶지 않나봐. ._."
         }
       },
       "lewd": {
@@ -474,18 +478,18 @@
     },
     "nsfw": {
       "blowjob": {
-        "mention_snuggle": "\\*도망쳐서 숨는 중* 야한건 싫어.",
+        "mention_snuggle": "\\*도망쳐서 숨는 중* 야한건 싫어, {user}.",
         "mention_self": "헤헤... 혼자서 쪽쪽한데- 외롭고 부끄럽겠는데, {user}.",
         "special_user": "ㅇ-왜 나랑 하려는거야, {user}? 내 언니랑만 하는거 아니야..?"
       },
       "fuck": {
-        "mention_purr": "싫어! 절대로 싫어, {user}."
+        "mention_snuggle": "싫어! 절대로 싫어, {user}."
       },
       "threesome": {
-        "mention_purr": "ㄴ-나는 그런거 절대로 싫어, {user}!"
+        "mention_snuggle": "ㄴ-나는 그런거 절대로 싫어, {user}!"
       },
       "yurifuck": {
-        "mention_purr": "ㅇ-왜 나랑 이런걸 하려는거야, {user}? 난 너같은 사람 몰라!"
+        "mention_snuggle": "ㅇ-왜 나랑 이런걸 하려는거야, {user}? 난 너같은 사람 몰라!"
       }
     }
   }
