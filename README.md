@@ -36,5 +36,6 @@ This is an up to date list of translations available for you.
 | English   | en     | Andre_601      |
 | German    | de     | Andre_601      |
 | Korean    | ko     | Katinor        |
+| Russian   | ru     | TheDanWolf     |
 
 *The code may be used in the `.language set <language>` command.
