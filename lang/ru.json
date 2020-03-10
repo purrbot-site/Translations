@@ -154,7 +154,7 @@
         "set": "Установлен префикс `{prefix}`"
       },
       "welcome": {
-        "current_msg": Текущее сообщение:\n```\n{message}\n```\n\nВы можете использовать метки.\n**Метки**:\n`{mention}`\n`{name}`\n`{guild}`\n`{count}`",
+        "current_msg": "Текущее сообщение:\n```\n{message}\n```\n\nВы можете использовать метки.\n**Метки**:\n`{mention}`\n`{name}`\n`{guild}`\n`{count}`",
         "embed": {
           "channel": "Канал",
           "color_title": "Цвет",
