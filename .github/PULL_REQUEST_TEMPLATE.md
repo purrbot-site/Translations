@@ -1,5 +1,6 @@
 ## Type
 > What kind of Pull request is this?
+<!-- Replace [ ] with [x] to "check" it. -->
 - [ ] Adding a new language.
 - [ ] Editing an existing language.
 
