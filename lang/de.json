@@ -29,6 +29,14 @@
   },
   "purr": {
     "fun": {
+      "bite": {
+        "loading": "{LOADING} Beisse jemanden...",
+        "mention_self": "Ist es kanibalismus, wenn du dich selbst beisst {user}?",
+        "mention_purr": "W-w-wa...? Ich schmeck nicht gut! >.<",
+        "message": "{user} beisst dich {targets}",
+        "no_mention": "Bitte erwähne mindestens eine Person zum beissen!",
+        "special_user": "A-aber {user}! D-das ist peinlich."
+      },
       "cuddle": {
         "loading": "{LOADING} Erhalte ein Knuddel-gif...",
         "mention_self": "Warum knuddelst du dich selbst {user}?\nDu kannst mich knuddeln wenn du willst. {VANILLABLUSH}",
@@ -187,7 +195,8 @@
     "info": {
       "emote": {
         "embed": {
-          "emote": "Emote",
+          "emote_multiple": "Emote [{current} / {total}]",
+          "emote_single": "Emote",
           "guild": "Gilde",
           "id": "ID",
           "image": "Bild",
@@ -435,6 +444,9 @@
   },
   "snuggle": {
     "fun": {
+      "bite": {
+        "mention_snuggle": "Nya! Ich bin kein Essen {user}!"
+      },
       "cuddle": {
         "mention_snuggle": "\\*kuschelt sich an {user}*"
       },
