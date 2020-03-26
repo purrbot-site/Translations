@@ -29,6 +29,14 @@
   },
   "purr": {
     "fun": {
+      "bite": {
+        "loading": "{LOADING} Going to bite someone...",
+        "mention_self": "Is it canibalism, if you bite yourself {user}?",
+        "mention_purr": "W-w-wha...? I'm not tasty! >.<",
+        "message": "{user} bites you {targets}",
+        "no_mention": "Please mention at least one user to bite!",
+        "special_user": "B-but {user}! T-that is embarrassing."
+      },
       "cuddle": {
         "loading": "{LOADING} 부비부비 이미지 불러오는 중...",
         "mention_self": "왜 혼자 부비부비 하고 있어, {user}?\n여기 날 부비부비하면 되잖아..{VANILLABLUSH}",
@@ -187,7 +195,8 @@
     "info": {
       "emote": {
         "embed": {
-          "emote": "이모티콘",
+          "emote_multiple": "이모티콘 [{current} / {total}]",
+          "emote_single": "이모티콘",
           "guild": "서버",
           "id": "ID",
           "image": "이미지",
@@ -435,6 +444,9 @@
   },
   "snuggle": {
     "fun": {
+      "bite": {
+        "mention_snuggle": "Nya! I'm no food {user}!"
+      },
       "cuddle": {
         "mention_snuggle": "\\*{user}에게 달라붙어 부비부비하는 중*"
       },

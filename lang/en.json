@@ -29,6 +29,14 @@
   },
   "purr": {
     "fun": {
+      "bite": {
+        "loading": "{LOADING} Going to bite someone...",
+        "mention_self": "Is it canibalism, if you bite yourself {user}?",
+        "mention_purr": "W-w-wha...? I'm not tasty! >.<",
+        "message": "{user} bites you {targets}",
+        "no_mention": "Please mention at least one user to bite!",
+        "special_user": "B-but {user}! T-that is embarrassing."
+      },
       "cuddle": {
         "loading": "{LOADING} Receiving a cuddle-gif...",
         "mention_self": "Why do you cuddle yourself {user}?\nYou can cuddle me if you want. {VANILLABLUSH}",
@@ -187,7 +195,8 @@
     "info": {
       "emote": {
         "embed": {
-          "emote": "Emote",
+          "emote_multiple": "Emote [{current} / {total}]",
+          "emote_single": "Emote",
           "guild": "Guild",
           "id": "ID",
           "image": "Image",
@@ -435,6 +444,9 @@
   },
   "snuggle": {
     "fun": {
+      "bite": {
+        "mention_snuggle": "Nya! I'm no food {user}!"
+      },
       "cuddle": {
         "mention_snuggle": "\\*snuggles up to {user}*"
       },
