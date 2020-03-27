@@ -243,9 +243,10 @@
             "fun": "Fun",
             "guild": "Guild",
             "info": "Info",
-            "list": "```\nCategories:\n  Fun\n  Guild\n  Info\n  NSFW\n```",
+            "list": "```\nFun\nGuild\nInfo\nNSFW\n```",
             "nsfw": "NSFW",
-            "owner": "Owner"
+            "owner": "Owner",
+            "title": "Categories"
           },
           "description": "Use the \u25C0 or \u25B6 reactions to navigate through the pages and \u23F9 to cancel it.\nUse `{prefix}help [command]` to get more information about a specific command.",
           "nsfw_info": "`Run the help command in a NSFW channel to see this page.`"
