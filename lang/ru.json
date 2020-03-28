@@ -494,7 +494,7 @@
           "bot_value": "Версия: `{version}`\nБиблиотека: [`JDA {version}`]({link})",
           "commands_title": "Команды",
           "commands_value": "Используйте `{prefix}help` в чате, чтобы получить помощь.",
-          "links_title": "Other links",
+          "links_title": "Другие ссылки",
           "links_value": "[`GitHub`]({github})\n[`Patreon`]({patreon})\n[`Discord-сервер`]({support})\n[`Twitter`]({twitter})\n[`Сайт`]({website})\n[`Wiki`]({wiki})"
         }
       },
