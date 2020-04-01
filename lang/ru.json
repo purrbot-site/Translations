@@ -294,7 +294,7 @@
           "{TYPING} Алло Discord, ты тута?"
         ],
         "info": "{EDIT} Отредактированных сообщений: `{edit_message}`\n{DISCORD} Discord: `{discord}`",
-        "info_full": "{EDIT} Отредактированных сообщений: `{edit_message}`\n{DISCORD} Discord: `{discord}`\n{DOWNLOAD} ДействияОтдыха: `{rest_action}`"
+        "info_full": "{EDIT} Отредактированных сообщений: `{edit_message}`\n{DISCORD} Discord: `{discord}`\n{DOWNLOAD} RestAction: `{rest_action}`"
       },
       "quote": {
         "embed_basic": {
