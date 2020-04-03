@@ -261,7 +261,7 @@
           "bot_title": "Информация о боте",
           "bot_value": "Версия: `{bot_version}`\nБиблиотека: [`JDA {jda_version}`]({link})",
           "bot_list_title": "Списки ботов",
-          "bot_list_value": "[`Botlist.space`]({botlist})\n[`Discordextremelist.xyz`]({del})\n[`Discord.bots.gg`]({db})\n[`Lbots.org`]({lbots})",
+          "bot_list_value": "[`Botlist.space`]({botlist})\n[`Discord.boats`]({dboats})\n[`Discord.bots.gg`]({db})\n[`Discordextremelist.xyz`]({del})\n[`Lbots.org`]({lbots})",
           "commands_title": "Команды",
           "commands_value": "Используйте `{prefix}help` в Discord для списка команд.",
           "links_title": "Другие ссылки",
@@ -425,20 +425,6 @@
           "open": "Воу-воу, {user}! Придержи коней!\nСлишком много людей ты просишь для этого, так что жди принятия, отказа или истечения по времени.",
           "timed_out": "Похоже, {target1} и {target2} не хотят секса с тобой, {user}. >\\_<"
         }
-      },
-      "yurifuck": {
-        "mention_bot": "Эм, ты не трахаться с ботами!",
-        "mention_purr": "Э-кхм... Я-я рада, что ты хочешь этого со мной, {user}, но я не могу.",
-        "mention_self": "Почему ты хочешь поиграть только с собой, {user}? Намного веселее с кем-то! ;3",
-        "message": "{user} и {target} занялись сексом!",
-        "no_mention": "Упомяните участника для этого.",
-        "request": {
-          "accepted": "{target} принимает запрос {user}. OwO",
-          "denied": "{target} не хочет секса с тобой, {user}. >.<",
-          "message": "Эй, {target}!\n{user} хочет трахнуть тебя. Ты правда этого хочешь?\nЕсли да, то жми \u2705 или \u274C, чтобы отменить.\n\n> **Этот запрос истекает через 1 минуту!**",
-          "open": "Эй, {user}, нельзя просить сразу двоих о сексе (для этого существует тройник)!\nДождись принятия, отказа или пока оно истечет.",
-          "timed_out": "Наверное {target} не хочет секса с тобой, {user}. .\\_."
-        }
       }
     }
   },
@@ -519,9 +505,6 @@
       },
       "threesome": {
         "mention_snuggle": "Я-я не люблю такие штучки, {user}!"
-      },
-      "yurifuck": {
-        "mention_snuggle": "П-почему со мной, {user}? Я тебя не знаю!"
       }
     }
   }
