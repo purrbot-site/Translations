@@ -130,6 +130,10 @@
         "message": "{user}이(가) {targets} 를 때려버렸어!",
         "no_mention": "적어도 한대 칠 상대 한명을 언급해줘!"
       },
+      "tail": {
+        "loading": "{LOADING} Wagging tail...",
+        "message": "{user} wags their tail"
+      },
       "tickle": {
         "loading": "{LOADING} 간질간질 이미지 불러오는 중...",
         "mention_self": "그래.. 정말 간지럽혀지고 싶다면 말야.. \\*{user}을(를) 간지럽힌다*",
