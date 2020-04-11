@@ -131,8 +131,8 @@
         "no_mention": "Пожалуйста упомяните хотя бы одного пользователя, чтобы шлёпнуть!"
       },
       "tail": {
-        "loading": "{LOADING} Wagging tail...",
-        "message": "{user} wags their tail"
+        "loading": "{LOADING} Виляем хвостами...",
+        "message": "{user} виляет своим хвостиком"
       },
       "tickle": {
         "loading": "{LOADING} Щекотим гифку...",
