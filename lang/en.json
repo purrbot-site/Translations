@@ -111,7 +111,7 @@
           "91_99": "Please invite me to your wedding. ^-^",
           "81_90": "I can really imagine you both marrying each other.",
           "71_80": "\\*pushes both of you closer to each other*",
-          "61_70": "That seems to be something sereous.",
+          "61_70": "That seems to be something serious.",
           "51_60": "Kiss already!!!",
           "41_50": "Already a couple?",
           "31_40": "You could become a couple.",
@@ -283,12 +283,6 @@
           "links": "[`Recommended Invite`]({invite_full})\n[`Basic Invite`]({invite_basic})\n[`Discord`]({support})"
         }
       },
-      "level": {
-        "bot": "Bots can't level up. xP",
-        "info": "Level info of {user}",
-        "level": "Level",
-        "xp": "XP"
-      },
       "ping": {
         "loading": [
           "{TYPING} Talking with Discord...",
@@ -346,11 +340,9 @@
           "game": "Game: {status}",
           "id": "ID: {id}",
           "joined": "Guild joined:",
-          "level": "Level",
           "nickname": "Nick: {nickname}",
           "role_highest": "Highest Role",
-          "role_total": "Other Roles",
-          "xp": "XP"
+          "role_total": "Other Roles"
         },
         "more_roles": "__**+{remaining} more**__",
         "no_member": "The mentioned member is not in this Discord!",
@@ -505,9 +497,6 @@
       },
       "invite": {
         "message": "Nya! You can't invite me to your Discord {user}! Go and invite my sister instead!"
-      },
-      "level": {
-        "purr_only": "Nya! This command is only available for my Sister \\*Purr*! >w<"
       }
     },
     "nsfw": {

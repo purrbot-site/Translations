@@ -283,12 +283,6 @@
           "links": "[`Empfohlene Einladung`]({invite_full})\n[`Standart Einladung`]({invite_basic})\n[`Discord`]({support})"
         }
       },
-      "level": {
-        "bot": "Bots können nicht aufleveln. xP",
-        "info": "Levelinfo über {user}",
-        "level": "Level",
-        "xp": "XP"
-      },
       "ping": {
         "loading": [
           "{TYPING} Rede mit Discord...",
@@ -346,11 +340,9 @@
           "game": "Spiel: {status}",
           "joined": "Guild beigetreten:",
           "id": "ID: {id}",
-          "level": "Level",
           "nickname": "Nick: {nickname}",
           "role_highest": "Höchste Rolle",
-          "role_total": "Andere Rollen",
-          "xp": "XP"
+          "role_total": "Andere Rollen"
         },
         "more_roles": "__**+{remaining} mehr**__",
         "no_member": "Das erwähnte Mitglied ist nicht in diesem Discord!",
@@ -499,9 +491,6 @@
       },
       "invite": {
         "message": "Nya! Du kannst mich nicht auf deinen Discord einladen {user}! Geh lade stattdessen meine Schwester ein!"
-      },
-      "level": {
-        "purr_only": "Nya! Dieser Befehl ist nut für meine Schwester \\*Purr* verfügbar! >w<"
       }
     },
     "nsfw": {
