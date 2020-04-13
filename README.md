@@ -1,3 +1,8 @@
+> # Archived
+> This repository has been archived.
+> Translations are now handled on https://translations.purrbot.site
+> If you want to contribute towards the project, contact Andre_601#0601 on the [Support Discord](https://purrbot.site/discord)
+
 ## Translations
 \*Purr* allows to have a per-guild language to be set.  
 The language used can be set through the `.language` command (Default is english (en)).
