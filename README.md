@@ -1,6 +1,6 @@
 > # Archived
 > This repository has been archived.
-> Translations are now handled on https://translations.purrbot.site
+> Translations are now handled on https://lang.purrbot.site
 > If you want to contribute towards the project, contact Andre_601#0601 on the [Support Discord](https://purrbot.site/discord)
 
 ## Translations
